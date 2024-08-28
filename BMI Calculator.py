@@ -43,7 +43,7 @@ result_label.pack()
 def write_result(bmi):
     result_string = f"Your Bmi is: {round(bmi,2)}. You are "
     if bmi <=16:
-        result_string += "severely thin! "
+        result_string += "severely thin!"
     elif 16 < bmi <= 17:
         result_string += "moderately thin"
     elif 17 < bmi <= 18.5:
